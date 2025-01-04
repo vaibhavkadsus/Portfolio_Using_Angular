@@ -81,3 +81,61 @@ a:before {
     padding: 1rem 2rem;
     position: relative;
   }
+  .parent2 {
+    width: 100%;
+    height: 100vh;
+    display: flex; /* Add flexbox */
+    text-align: center;
+    margin-top: 100px;
+}
+.section1{
+    width: 60%;
+    height: 100vh;
+    justify-content: center;
+    /* background-color: rgb(31, 52, 52); */
+}
+.section2 {
+    width: 40%;
+    height: 100vh;
+    /* background-color: rgb(98, 229, 229); */
+    text-align: center;
+    margin-top: 80px;
+    justify-content: center;
+}
+.vphoto{
+    width: 300px;
+    height: 350px; 
+    border: 2px solid ;
+    border-radius: 50%;
+    border-color: black ;
+}
+.heading{
+    text-align: center;
+    padding-top: 130px;
+    color: #faf9f9;
+    font-size: 50px;
+  }
+  .intro{
+    font-size: 25px;
+    padding: 10px;
+  }
+  .fitimage{
+    display: flex;
+    color: white;
+    margin-right: 20px;
+  }
+  .contactme{
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+    background-color: aqua;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 3px;
+  }
+  #about{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
