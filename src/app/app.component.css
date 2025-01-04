@@ -8,16 +8,17 @@
     padding: 0%;
 }
 .box1{
-    width: 25%;
+    width: 30%;
     height: 75px;
     /* background-color:dimgray; */
     text-align: center;
+    margin-top: 40px;
     font-size: 25px;
     color: rgb(119, 239, 239);
 }
 .navbar{
   
-   width: 75%;
+   width: 70%;
     height: 75px;
     /* background-color: dimgray; */
     font-size: 25px;
@@ -86,12 +87,16 @@ a:before {
     height: 100vh;
     display: flex; /* Add flexbox */
     text-align: center;
-    margin-top: 100px;
+    
+    margin-top: 0px;
+    background-color: rgb(7, 22, 47);;
 }
 .section1{
     width: 60%;
     height: 100vh;
     justify-content: center;
+    background-color: rgb(7, 22, 47);
+    color: aliceblue;
     /* background-color: rgb(31, 52, 52); */
 }
 .section2 {
@@ -101,6 +106,7 @@ a:before {
     text-align: center;
     margin-top: 80px;
     justify-content: center;
+    background-color: rgb(7, 22, 47);
 }
 .vphoto{
     width: 300px;
